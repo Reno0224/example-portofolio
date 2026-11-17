@@ -32,7 +32,10 @@ export const ContactSection = () => {
             />
           </div>
 
-          <form action="" className="flex flex-col gap-5 p-8 rounded-4xl">
+          <form
+            action=""
+            className="flex flex-col gap-5 p-8 rounded-4xl shadow-[0_0_28px_0_rgba(197,197,197,0.25)]"
+          >
             <div className="flex flex-col gap-1.5">
               <label htmlFor="" className="text-neutral-950 text-sm font-bold">
                 Name
@@ -69,7 +72,7 @@ export const ContactSection = () => {
                 className="border border-neutral-300 rounded-xl p-4"
               ></textarea>
             </div>
-            <button className="bg-primary-300 text-white h-12 rounded-full text-text-sm font-bold ">
+            <button className="bg-primary-300 text-white h-12 rounded-full text-text-sm font-bold placeholder:text-neutral-600">
               {" "}
               Let`s Talk
             </button>
