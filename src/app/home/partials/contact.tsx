@@ -69,10 +69,10 @@ export const ContactSection = () => {
                 id="message"
                 rows={5}
                 placeholder="Enter your message"
-                className="border border-neutral-300 rounded-xl p-4"
+                className="border border-neutral-300 rounded-xl p-4 placeholder:text-neutral-600"
               ></textarea>
             </div>
-            <button className="bg-primary-300 text-white h-12 rounded-full text-text-sm font-bold placeholder:text-neutral-600">
+            <button className="bg-primary-300 text-white h-12 rounded-full text-text-sm font-bold ">
               {" "}
               Let`s Talk
             </button>
